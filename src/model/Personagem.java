@@ -1,3 +1,8 @@
+package model;
+
+import exception.PegouChaveException;
+import model.Labirinto;
+
 public class Personagem {
 
     private Boolean key;//key de gay

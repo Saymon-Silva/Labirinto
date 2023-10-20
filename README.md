@@ -1,1 +1,1 @@
-"# Labirinto" 
+"# model.Labirinto" 

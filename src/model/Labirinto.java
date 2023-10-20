@@ -1,3 +1,8 @@
+package model;
+
+import exception.CaminhoObstruidoException;
+import exception.SaidaTrancadaException;
+
 public class Labirinto {
 
     private final String[][] mapa = new String[11][10];

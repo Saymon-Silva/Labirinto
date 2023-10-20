@@ -1,14 +1,17 @@
-import java.util.Random;
+package view;
+
+import model.Labirinto;
+import model.Personagem;
+
 import java.util.Scanner;
 
 public class Main {
 
     private final static Scanner sc = new Scanner(System.in);
     private final static Personagem personagem = new Personagem();
-    private final static Labirinto labirinto = new Labirinto(personagem);
-
+    private final static model.Labirinto labirinto = new Labirinto(personagem);
     public static void main(String[] args) {
-//        System.out.println(labirinto.mostrarLabirinto());
+        System.out.println(labirinto.mostrarLabirinto());
         do{
             System.out.println(personagem.getVisao(labirinto));
             try {
